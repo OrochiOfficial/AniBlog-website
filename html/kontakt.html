@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title>AnimeBlog</title>
+	<meta name="description" content="Anime"/>
+	<meta name="keywords" content="anime, recenzje, informacje"/>
+	<meta http-equiv="X-UA-Campatible" content="IE=rdge,chrome=1" author="Tomasz Kotyła"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/stylegatunki.css" type="text/css">
+
+
+    <script>
+        function show()
+        {document.getElementById("popup").innerHTML="<img src='../graphics/potwierdz.png'/>"; setTimeout(hide,3000);}
+        function hide()
+        {document.getElementById("popup").innerHTML="";}
+    </script>
+
+    
+</head>
+
+<body>
+    <div id="head">
+        <header>			
+            <img class="logo" src="../graphics/LOGO.png">
+                <nav>			
+                    <ul class="nav__links">
+                        <a href="../index.html"><li>Strona główna</li></a>
+						<a href="gatunki.html"><li>Gatunki</li></a>
+						<a href="kontakt.html"><li>Kontakt</li></a>
+						<a href="historia.html"><li>Historia anime</li></a>
+                    </ul>
+                </nav>
+            <a class="cta" href="../index.html"><button>← powrót</button></a>	
+        </header>
+    </div>
+
+
+
+    <img src="../graphics/title_scenary.png" width="100%" z-index="-3">
+
+    <div class="title">
+        Kontakt
+    <hr width="100%">
+    </div>
+
+
+    <div class="wrapper-kontakt">
+        <div class="wrapper-form">
+            <div class="formularz">
+                <form action="potwierdzenie.html">
+              
+                  <label for="fname">Imię</label>
+                  <input type="text" placeholder="Twoje imie..">
+              
+                  <label for="lname">Nazwisko</label>
+                  <input type="text" placeholder="Twoje nazwisko..">
+              
+                  <label for="lname">e-mail</label>
+                  <input type="email" placeholder="example@mail.com..">
+              
+                  <label for="subject">Treść</label>
+                  <textarea placeholder="Napisz coś.." style="height:200px"></textarea>
+              
+                  <!-- <input type="submit" value="Submit" onclick="show()">  TUTAJ JEST STARY PRZYCISK BEZ JS-->
+              
+                </form>
+                <input type="submit" value="Submit" onclick="show()">
+                <div id="popup"></div>
+            </div>        
+        </div>
+        <div class="form-aside-img">
+            <img src="../graphics/main_graphic.png" width="70%">
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="wrapper-social-media">
+        <h1>Social media</h1>
+        <br></br>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\fb.png"> Facebook</div></a></div>
+            <a href="https://github.com" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\gh.png"> GitHub</div></a></div>
+            <a href="https://www.instagram.com" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\ig.png"> Instagram</div></a></div>
+            <a href="https://www.twitch.tv" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\ttv.png"> Twitch</div></a></div>
+        </div>
+        <br></br>
+        <br></br>
+        <div class="social-media">
+            <a href="https://twitter.com/home?lang=pl" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\tw.png"> Twitter</div></a></div>
+            <a href="https://www.youtube.com/?hl=pl" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\yt.png"> YouTube</div></a></div>
+            <a href="https://anilist.co" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\al.png"> Anilist</div></a></div>
+            <a href="https://myanimelist.net" target="_blank"><div class="social-media-link"><div class="link"><img src="..\graphics\mal.png"> MyAnimeList</div></a></div>
+        </div>
+        <br></br>
+        <br></br>
+
+
+    </div>
+
+    <footer>ANIME<b>BLOG</b> &copy; all rights reserved for <i>Tomasz Kotyła ETI II</i>
+        <div class="clear"></div>
+        <div class="footer-block">
+            <div class="footer-block-link">
+                <p>Podstrony</p>
+                <ul class="last-bold">
+                    <a href="../index.html"><li>Strona główna</li></a>
+                    <a href="gatunki.html"><li>Gatunki</li></a>
+                    <a href="kontakt.html"><li>Kontakt</li></a>
+                    <a href="historia.html"><li>Historia anime</li></a><br>
+                    <a href="objaśnienia.html"><li>Objaśnienia</li></a>
+                </ul>
+            </div>           
+        </div>
+        <div class="footer-block">
+            <div class="footer-block-link">
+                <p>Dane kontaktowe</p>
+                <ul class="txt">
+                    <li>Tomasz Kotyła ETI II</li>
+                    <li>mail.kontaktowy@projekt.com</li>
+                    <li>+48 748-569-231</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-block">
+            <div class="footer-block-link">
+                <p>Social media</p>
+                <ul>
+                    <a target="_blank" href="https://www.facebook.com"><li>Facebook</li></a>
+                    <a target="_blank" href="https://github.com"><li>GitHub</li></a>
+                    <a target="_blank" href="https://www.instagram.com"><li>Instagram</li></a>
+                    <a target="_blank" href="https://www.twitch.tv"><li>Twitch</li></a>
+                    <a target="_blank" href="https://twitter.com/home?lang=pl"><li>Twitter</li></a>
+                    <a target="_blank" href="https://www.youtube.com/?hl=pl"><li>Youtube</li></a>
+                    <a target="_blank" href="https://anilist.co"><li>Anilist</li></a>
+                    <a target="_blank" href="https://myanimelist.net"><li>MyAnimeList</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>       
+    </footer>
+</body>
+</html>
