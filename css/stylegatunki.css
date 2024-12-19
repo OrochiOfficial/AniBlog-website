@@ -1,0 +1,648 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+body
+{
+    background-color: #161520;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+#head
+{
+    min-height: 6vh;
+    width: 100%;
+    z-index: 10;
+    position:fixed;
+    background-color: rgba(21, 20, 33, 0.69); 
+    z-index: 3;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+li, a
+{
+    font-size: 16px;
+    color: #5e5b8a;
+    text-decoration: none;
+}
+
+button
+{
+    font-size: 16px;
+    color: #c3d4cc;
+    text-decoration: none;
+}
+
+.nav__links
+{
+    list-style: none;
+    
+}
+
+.nav__links li
+{
+    display: inline-block;
+    padding: 0px 40px;  
+}
+
+.nav__links li
+{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li:hover
+{
+    color: aliceblue;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: #1f1f29;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover
+{
+    background-color: teal;
+}
+
+#nav-cover-spacer
+{
+    height: 6vh;
+    width: 100%;
+    background-color: rgba(69, 69, 69, 0.0);
+}
+
+.title
+{
+    text-align: center;
+    width: 50%;
+    padding: 150px 0px 50px;
+    color: aliceblue;
+    font-size: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -275px;
+}
+
+.wrapper
+{
+    width: 50%;
+    min-height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pozycja
+{
+    width: 100%;
+    margin: 20px 10px 20px;
+    /* padding: 5px 40px 5px; */
+    color: aliceblue;
+    line-height: 2;
+    background: linear-gradient(90deg, #1f1f29, #1f1f29, #1f1f29, #004444);
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.poz-anim
+{
+    width: 100%;
+    margin: 20px 10px 20px;
+    /* padding: 5px 40px 5px; */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    line-height: 2;
+    background-color: rgba(0, 128, 128, 0);
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    transform: translate(-1%, 0%);
+}
+
+.poz-anim:hover
+{
+    background-color: teal;
+}
+
+.pozycja h2
+{
+    color: aliceblue;
+    transition: all 0.3s ease 0s;
+}
+
+.pozycja h2:hover
+{
+    transition: all 0.3s ease 0s;
+}
+
+.poz-pic img
+{
+    height:150px;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    transform: translate(-10%, 0%);
+}
+
+.poz-name
+{
+/*  padding: 55px 10px 55px;*/    
+    padding-left: 10px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    font-size: 22px;
+    color: aliceblue;
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.before-footer-space
+{
+    height: 50px;
+}
+
+/*------------------------------------------------------ Footer*/
+
+footer
+{
+    min-height: 100px;
+    width: 100%;
+    background-color: #0c0c12;
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-block
+{
+    margin-top: 50px;
+    float: left;
+    text-align: left;
+    line-height: 2;
+    color: #5e5b8a;
+    width: 33%;
+}
+
+.footer-block-link
+{
+    width: 25%;
+}
+
+.footer-block li
+{
+    color: aliceblue;
+    list-style: none;
+    line-height: 2;
+    color: #5e5b8a;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-block li:hover
+{
+    color: aliceblue;
+    list-style: none;
+}
+
+.footer-block .footer-block-link .txt li
+{
+    color: #5e5b8a;
+}
+
+.footer-block p
+{
+    color: #7b76b6;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-block .footer-block-link .last-bold a:last-child
+{
+    font-weight: bold;
+}
+
+/*------------------------------------------------------ Historia anime*/
+
+aside
+{
+    height: 220vmax;
+    width: 15%;
+    float: left;
+    margin-top: 40px;
+    position: relative;
+    background: linear-gradient(#004444, #161520, #161520, #161520,  #004444);
+    border-radius: 0px 20px 20px 0px;
+}
+
+aside a
+{
+    color: aliceblue;
+    transition: all 0.3s ease 0s;
+}
+
+aside a:hover
+{
+    color: teal;
+    background-color: aliceblue;
+    border-radius: 100vh;
+    padding: 5px 30px;
+}
+
+.menu
+{
+    position: sticky;
+    top: 20px;
+    left: 22px;
+    top: 20px;
+    color: aliceblue;
+    margin: 50px 20px;
+    line-height: 150%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu-wrap
+{
+    margin-top: 70px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    position: sticky;
+    top: 60px;
+}
+
+article
+{
+    min-height: 2000px;
+    width: 83%;
+    float: left;
+    margin-top: 40px;
+    border: 1px solid #161520;
+    font-weight: 300;
+}
+
+.container
+{
+    border: 1px solid #161520;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 5px;
+    min-height: 300px;
+    width: 99%;
+/*  border: 3px solid red;*/
+}
+
+.tile-text
+{   
+    float: left;
+    color: rgba(240, 248, 255, 0.851);
+    width: 48%;
+    min-height: 300px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+/*  border: 3px solid green;*/
+}
+
+.tile-text a
+{
+    font-weight: bold;
+    color: teal;
+    transition: all 0.3s ease 0s;
+}
+
+.tile-text a:hover
+{
+    color: rgb(0, 197, 197);
+}
+
+.tile-img
+{   
+    float: left;
+    width: 48%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+/*  border: 3px solid blue;*/
+}
+
+.tile-vid
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    margin: 50px 0px 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*------------------------------------------------------ kontakt*/
+
+.wrapper-kontakt
+{
+    width: 80%;
+    min-height: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.wrapper-form
+{
+    width: 48%;
+    min-height: 100px;
+    Float: left;
+    margin-right: 4%;
+}
+
+#popup
+{
+    width: 48%;
+    text-align: center;
+    transition: 1s;
+}
+
+.form-aside-img
+{
+    width: 48%;
+    text-align: center;
+    min-height: 600px;
+    padding-top: 45px;
+    Float: left;
+}
+
+input[type=text], textarea 
+{
+	width: 100%;
+	padding: 12px;
+	border: 3px dotted teal;
+    background-color: #2c2c3f;
+    color: aliceblue;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+
+input[type=email], select, textarea 
+{
+	width: 100%;
+	padding: 12px;
+	border: 3px dotted teal;
+    background-color: #2c2c3f;
+    color: aliceblue;
+	border-radius: 20px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+  
+input[type=submit] 
+{
+	background-color: #004444;
+	color: white;
+	padding-top: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 12px;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+  
+input[type=submit]:hover 
+{
+	background-color: teal;
+    transition: all 0.3s ease 0s;
+}
+
+  
+.formularz 
+{
+	border-radius: 20px;
+	background-color: #161520;
+    border: 3px dotted teal;
+    color: aliceblue;
+	padding: 20px;
+}
+
+.wrapper-social-media
+{
+    width: 66%;
+    text-align: center;
+    color: aliceblue;
+    min-height: 100px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media
+{
+    text-align: center;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.social-media-link
+{
+    background-color: #004444; 
+    padding: 10px;  
+    border-radius: 100vh;
+    width: auto;
+    padding: 10px 40px 5px;
+    height: 70px;
+}
+
+.link  
+{
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.social-media-link-container
+{
+    min-height: 1px;
+}
+
+.social-media-link:hover
+{
+    background-color: #0c8282;
+    color: rgb(0, 60, 60);
+    transition: all 0.3s ease 0s;
+}
+
+/*------------------------------------------------------ Potwierdzenie*/
+/* 
+.box
+{
+    height: 400px;
+    width: 40%;
+    border: 3px dotted teal;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box h1
+{
+    color:aliceblue;
+    font-size: 44px;
+}
+
+.box p
+{
+    color: teal;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.box-link-wrap
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.box-link
+{
+    background-color: #004444; 
+    padding: 10px;  
+    border-radius: 100vh;
+    width: 150px;
+    padding: 10px 40px 5px;
+    height: 70px;
+    float: left;
+    font-size: 11px;
+}
+
+#wrapper-tile-center-buttons
+{
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;   
+}
+
+.btn
+{
+    padding: 20px 10px 20px;
+    width: 100%;
+    background-color: #1f1f29;
+    border-radius: 100vh;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.btn:hover
+{
+    background-color: teal;
+    color:aliceblue;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-gap
+{
+    float: left;
+    width: 30%;
+    min-height: 2px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.btn-center
+{
+    display: flex;
+    min-height: 10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+    writing-mode: horizontal-tb;
+    place-content: normal space-evenly;
+}
+
+.btn-center-center
+{
+    margin-left: 25%;
+    width: 100%;
+} */
+
+/*------------------------------------------------------ Objaśnienia*/
+
+.wrapper-objasnienia
+{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid red; */
+}
+
+.block-objasnienia
+{
+    width: 50%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    /* border: 1px solid darkgreen; */
+    float: left;
+    padding: 0px 20px 0px;
+}
+
+dt
+{
+    font-weight: bold;
+    color: #5e5b8a;
+    margin-top: 20px;
+}
+
+dd
+{
+    padding-left: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-indent: 2%;
+    text-align: justify;
+}
